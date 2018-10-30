@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background_start"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    tools:showIn="@layout/activity_main"
+    tools:context=".MainActivity">
+    <ImageView
+        android:paddingTop="50dp"
+        android:paddingRight="60dp"
+        android:paddingLeft="60dp"
+        android:paddingBottom="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <Button
+                android:id="@+id/btn_start_10"
+                android:text="Lớp 10"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_main"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <Button
+                android:id="@+id/btn_start_11"
+                android:text="Lớp 11"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_main"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <Button
+                android:id="@+id/btn_start_12"
+                android:text="Lớp 12"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_main"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
